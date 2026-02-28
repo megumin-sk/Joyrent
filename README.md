@@ -1,2 +1,92 @@
-# Joyrent
-æ¸¸æˆå¡å¸¦ç§Ÿèµagentå¼€å‘
+# JoyRent
+
+JoyRent ÊÇÒ»¸öÃæÏòÓÎÏ·×âÁÞ³¡¾°µÄ¶à¶ËÏîÄ¿£¬°üº¬ Java ºó¶Ë¡¢¹ÜÀí¶ËÇ°¶Ë¡¢uni-app Ð¡³ÌÐò¶Ë£¬ÒÔ¼°Èô¸É AI ÄÜÁ¦·þÎñ£¨RAG / ÆÀÂÛ·ÖÎö / ÈËÁ³Ê¶±ð / Agent£©¡£
+
+## ÏîÄ¿½á¹¹
+
+- `switch-rent-common`: ¹«¹²ÊµÌå¡¢DTO¡¢¹¤¾ßÀà
+- `switch-rent-mapper`: MyBatis-Plus Mapper Óë XML
+- `switch-rent-service`: ÒµÎñ·þÎñ²ã
+- `switch-rent-controller`: Spring Boot Æô¶¯Óë½Ó¿Ú²ã
+- `rent-vue`: ¹ÜÀíºóÌ¨£¨Vue3 + Vite + Element Plus£©
+- `switchRentApp`: uni-app ¿Í»§¶Ë
+- `rent-agent`: LangGraph ¹¤×÷Á÷ Agent£¨¶ÀÁ¢ Python ·þÎñ£©
+- `rag_llm_engine` / `RAG_search` / `RAG_Intend_Bert`: RAG ÓëÒâÍ¼Ê¶±ðÊµÑéÄ£¿é
+- `comment-analysis`: ÆÀÂÛ·ÖÎö·þÎñ
+- `face`: ÈËÁ³Ê¶±ð·þÎñ
+
+## ¼¼ÊõÕ»
+
+- Backend: Java 8, Spring Boot 2.7, MyBatis-Plus, MySQL, Redis
+- Admin Web: Vue 3, Vite, Element Plus
+- Client: uni-app (Vue2)
+- AI Services: Python (RAG, NLP, Face, Agent)
+
+## »·¾³ÒªÇó
+
+- JDK 8+
+- Maven 3.8+
+- Node.js 18+
+- Python 3.10+
+- MySQL 8+
+- Redis 6+
+
+## ¿ìËÙÆô¶¯
+
+### 1. Æô¶¯ºó¶Ë
+
+1) ´´½¨Êý¾Ý¿â²¢µ¼Èë±í½á¹¹£¨²Î¿¼ `db_schema.md`£©
+
+2) °´ÐèÐÞ¸ÄÅäÖÃ£º
+
+- `switch-rent-controller/src/main/resources/application.yml`
+- Ö÷Òª°üº¬ MySQL¡¢Redis¡¢Python ·þÎñµØÖ·µÈ
+
+3) Æô¶¯ Spring Boot£º
+
+```bash
+mvn -pl switch-rent-controller -am spring-boot:run
+```
+
+Ä¬ÈÏ¶Ë¿Ú£º`8080`
+
+### 2. Æô¶¯¹ÜÀí¶Ë£¨rent-vue£©
+
+```bash
+cd rent-vue
+npm install
+npm run dev
+```
+
+### 3. Æô¶¯ uni-app£¨switchRentApp£©
+
+- Ê¹ÓÃ HBuilderX ´ò¿ª `switchRentApp` Ä¿Â¼
+- Ñ¡ÔñÄ¿±êÆ½Ì¨ÔËÐÐ£¨ÈçÎ¢ÐÅ¿ª·¢Õß¹¤¾ß£©
+
+### 4. Æô¶¯ Python ·þÎñ£¨°´Ðè£©
+
+²»Í¬Ä¿Â¼ÊÇ¶ÀÁ¢·þÎñ£¬Çë·Ö±ð°²×°ÒÀÀµºóÔËÐÐ¡£
+ÀýÈç£º
+
+```bash
+cd rent-agent
+pip install -e .
+python -m rent_agent.main
+```
+
+ÆäËûÄ£¿éÇë²Î¿¼¸÷×ÔÄ¿Â¼ÏÂ `README.md` / `requirements.txt`¡£
+
+## Ä£ÐÍÓë´óÎÄ¼þËµÃ÷
+
+²Ö¿âÄ¬ÈÏ²»Ìá½»Ä£ÐÍÈ¨ÖØÓë»º´æÎÄ¼þ£¨Èç `*.pt`, `*.bin`, `*.safetensors`, `*.h5`, `__pycache__` µÈ£©¡£
+
+ÈçÐèÔËÐÐ AI Ä£¿é£¬ÇëÔÚ±¾µØ×ÔÐÐ×¼±¸Ä£ÐÍÎÄ¼þ£¬²¢·ÅÈë¶ÔÓ¦Ä¿Â¼£¨ÕâÐ©Ä¿Â¼Í¨³£ÒÑ±» `.gitignore` ºöÂÔ£©¡£
+
+## ·ÖÖ§ËµÃ÷
+
+µ±Ç°Ä¬ÈÏ·ÖÖ§Îª `main`¡£
+
+## ±¸×¢
+
+- ±¾²Ö¿âÎª¶àÄ£¿é¾ÛºÏÏîÄ¿£¬½¨Òé°´¡°ºó¶Ë -> Ç°¶Ë -> AI ·þÎñ¡±Ë³ÐòÖð²½Áªµ÷¡£
+- Èô½Ó¿ÚÁªµ÷Ê§°Ü£¬ÏÈ¼ì²éºó¶ËÊý¾Ý¿âÁ¬½Ó¡¢Redis Óë Python ·þÎñµØÖ·ÅäÖÃ¡£
