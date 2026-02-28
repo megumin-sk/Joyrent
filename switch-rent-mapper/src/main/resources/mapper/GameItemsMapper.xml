@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rent.mapper.GameItemsMapper">
+
+    <resultMap id="BaseResultMap" type="com.rent.common.entity.GameItems">
+            <id property="id" column="id" />
+            <result property="gameId" column="game_id" />
+            <result property="serialCode" column="serial_code" />
+            <result property="status" column="status" />
+            <result property="createdAt" column="created_at" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,game_id,serial_code,status,created_at
+    </sql>
+</mapper>

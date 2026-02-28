@@ -1,0 +1,59 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+# Python cache
+__pycache__/
+*.py[cod]
+
+# ML artifacts / model checkpoints
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.h5
+*.pkl
+**/checkpoint-*/
+RAG_Intend_Bert/model/
+comment-analysis/saved_models/
+face/model_data/
+
+# Build artifacts
+switchRentApp/unpackage/
+
+# Embedded repositories
+openai-skills-inspect/

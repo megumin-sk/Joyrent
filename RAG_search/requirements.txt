@@ -1,0 +1,24 @@
+fastapi
+uvicorn
+psycopg2-binary
+dashscope
+pgvector
+python-dotenv
+numpy
+langchain
+langchain-community
+requests
+beautifulsoup4
+mysql-connector-python
+langchain-text-splitters
+transformers>=4.30.0
+sentencepiece
+torch
+safetensors
+
+# Document loaders for PDF, WORD, EXCEL, etc.
+pypdf
+python-docx
+openpyxl
+pdfplumber
+unstructured

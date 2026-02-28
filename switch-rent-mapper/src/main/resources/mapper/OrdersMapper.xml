@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rent.mapper.OrdersMapper">
+
+    <resultMap id="BaseResultMap" type="com.rent.common.entity.Orders">
+            <id property="id" column="id" />
+            <result property="userId" column="user_id" />
+            <result property="addressId" column="address_id" />
+            <result property="status" column="status" />
+            <result property="totalRentFee" column="total_rent_fee" />
+            <result property="totalDeposit" column="total_deposit" />
+            <result property="payAmount" column="pay_amount" />
+            <result property="trackingNumberSend" column="tracking_number_send" />
+            <result property="trackingNumberReturn" column="tracking_number_return" />
+            <result property="createdAt" column="created_at" />
+            <result property="payTime" column="pay_time" />
+            <result property="finishedTime" column="finished_time" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,user_id,address_id,status,total_rent_fee,total_deposit,
+        pay_amount,tracking_number_send,tracking_number_return,created_at,pay_time,
+        finished_time
+    </sql>
+    <select id="queryWeeklyNum" resultType="java.lang.Integer">
+        SELECT COUNT(*)
+        FROM orders
+        WHERE created_at >= DATE_SUB(NOW(), INTERVAL 7 DAY)
+          AND status IN (20, 30, 40, 50)
+    </select>
+
+    <select id="queryDailyOrderNum" resultType="java.util.Map">
+        SELECT
+            DATE_FORMAT(created_at, '%Y-%m-%d') AS date,
+            COUNT(*) AS count
+        FROM orders
+        WHERE created_at >= DATE_SUB(NOW(), INTERVAL 7 DAY)
+          AND status IN (20, 30, 40, 50)
+        GROUP BY date
+        ORDER BY date ASC
+    </select>
+
+    <select id="queryDailyTurnover" resultType="java.util.Map">
+        SELECT
+            DATE_FORMAT(created_at, '%Y-%m-%d') AS date,
+            IFNULL(SUM(pay_amount), 0) AS amount
+        FROM orders
+        WHERE created_at >= DATE_SUB(NOW(), INTERVAL 7 DAY)
+          AND status IN (20, 30, 40, 50)
+        GROUP BY date
+        ORDER BY date ASC
+    </select>
+
+    <select id="queryTodayMoney" resultType="java.lang.Long">
+        SELECT IFNULL(SUM(pay_amount), 0)
+        FROM orders
+        WHERE DATE(created_at) = CURDATE()
+          AND status IN (20, 30, 40, 50)
+    </select>
+
+    <select id="queryTodayOrders" resultMap="BaseResultMap">
+        SELECT <include refid="Base_Column_List"/>
+        FROM orders
+        WHERE DATE(created_at) = CURDATE()
+        ORDER BY created_at DESC
+    </select>
+</mapper>

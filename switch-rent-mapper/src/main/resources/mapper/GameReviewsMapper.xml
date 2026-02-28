@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rent.mapper.GameReviewsMapper">
+
+    <resultMap id="BaseResultMap" type="com.rent.common.entity.GameReviews">
+            <id property="id" column="id" />
+            <result property="userId" column="user_id" />
+            <result property="gameId" column="game_id" />
+            <result property="orderId" column="order_id" />
+            <result property="rating" column="rating" />
+            <result property="content" column="content" />
+            <result property="aiJudge" column="ai_judge" />
+            <result property="aiEmotion" column="ai_emotion" />
+            <result property="aiScore" column="ai_score" />
+            <result property="isHidden" column="is_hidden" />
+            <result property="createdAt" column="created_at" />
+            <result property="updatedAt" column="updated_at" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,user_id,game_id,order_id,rating,content,
+        ai_judge,ai_emotion,ai_score,is_hidden,created_at,
+        updated_at
+    </sql>
+    <select id="selectReviewsByGameId" resultType="com.rent.common.vo.GameReviewVO">
+        SELECT 
+            r.*,
+            u.nickname,
+            u.avatar
+        FROM game_reviews r
+        LEFT JOIN users u ON r.user_id = u.id
+        WHERE r.game_id = #{gameId}
+        AND r.is_hidden = 0
+        ORDER BY r.created_at DESC
+    </select>
+</mapper>

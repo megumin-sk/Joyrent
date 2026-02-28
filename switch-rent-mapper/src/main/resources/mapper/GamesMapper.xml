@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rent.mapper.GamesMapper">
+
+    <resultMap id="BaseResultMap" type="com.rent.common.entity.Games">
+            <id property="id" column="id" />
+            <result property="title" column="title" />
+            <result property="platform" column="platform" />
+            <result property="coverUrl" column="cover_url" />
+            <result property="description" column="description" />
+            <result property="dailyRentPrice" column="daily_rent_price" />
+            <result property="depositPrice" column="deposit_price" />
+            <result property="availableStock" column="available_stock" />
+            <result property="status" column="status" />
+            <result property="createdAt" column="created_at" />
+            <result property="updatedAt" column="updated_at" />
+            <result property="totalRentCount" column="total_rent_count" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,title,platform,cover_url,description,daily_rent_price,
+        deposit_price,available_stock,status,created_at,updated_at,total_rent_count
+    </sql>
+    <select id="selectAll" resultMap="BaseResultMap">
+        select * from games
+    </select>
+    <select id="selectByName" resultMap="BaseResultMap">
+        select * from games 
+        where match(title) against(#{name} in natural language mode)
+    </select>
+    <select id="selectByType" resultMap="BaseResultMap">
+        select * from games where platform like concat('%',#{type},'%')
+    </select>
+    
+    <select id="selectGamesByRentNum" resultMap="BaseResultMap">
+        select <include refid="Base_Column_List" />
+        from games 
+        where status = 1
+        order by total_rent_count desc 
+        limit 5
+    </select>
+</mapper>

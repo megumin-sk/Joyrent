@@ -1,0 +1,169 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/index/gameDetail",
+			"style": {
+				"navigationBarTitleText": "游戏详情",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/index/gameReviews",
+			"style": {
+				"navigationBarTitleText": "玩家评价",
+				"navigationBarBackgroundColor": "#1488cc",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/index/gameList",
+			"style": {
+				"navigationBarTitleText": "平台游戏",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/index/game/switchGame",
+			"style": {
+				"navigationBarTitleText": "Switch专区",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/index/game/playstationGame",
+			"style": {
+				"navigationBarTitleText": "PlayStation专区",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/news/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/order/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/auth/login",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/auth/register",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/auth/face",
+			"style": {
+				"navigationBarTitleText": "人脸认证登录",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/mine/face-manage",
+			"style": {
+				"navigationBarTitleText": "人脸管理",
+				"navigationBarBackgroundColor": "#f8f9fc",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/address/index",
+			"style": {
+				"navigationBarTitleText": "地址管理",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/address/edit",
+			"style": {
+				"navigationBarTitleText": "编辑收货地址",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/cart/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/order/createOrder",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/order/orderDetail",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "Joy Rent",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#f5f5f5",
+		"app-plus": {
+			"background": "#f5f5f5"
+		}
+	},
+	"tabBar": {
+		"color": "#8f95a3",
+		"selectedColor": "#00f5ff",
+		"backgroundColor": "#0a0a0f",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tab/home-default.png",
+				"selectedIconPath": "static/tab/home-click.png"
+			},
+			{
+				"pagePath": "pages/news/index",
+				"text": "游戏讯息",
+				"iconPath": "static/tab/news-default.png",
+				"selectedIconPath": "static/tab/news-click.png"
+			},
+			{
+				"pagePath": "pages/mine/index",
+				"text": "我的",
+				"iconPath": "static/tab/my-default.png",
+				"selectedIconPath": "static/tab/my-click.png"
+			}
+		]
+	}
+}

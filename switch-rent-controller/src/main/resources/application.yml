@@ -1,0 +1,42 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: switch-rent
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/joy_rent?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456
+  redis:
+    host: localhost
+    port: 6379
+    password: 
+    database: 0
+    timeout: 3000ms
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8840 # Sentinel 自控制台地址
+        port: 8719
+baidu:
+  face:
+    APP_ID: "120464831"
+    API_KEY: "Op9GN3fQJYagvtgLOvq0tTJo"
+    SECRET_KEY: "Cvtyz9p3EBXMTcZPvOdUhAb7GB9YOcO2"
+
+# Python 人脸识别服务配置
+python:
+  face:
+    url: http://localhost:5000/api/user/face
+  comment:
+    url: http://localhost:5002
+    
+logging:
+  level:
+    com.rent: DEBUG
+    
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rent.mapper.OrderItemsMapper">
+
+    <resultMap id="BaseResultMap" type="com.rent.common.entity.OrderItems">
+            <id property="id" column="id" />
+            <result property="orderId" column="order_id" />
+            <result property="gameId" column="game_id" />
+            <result property="gameItemId" column="game_item_id" />
+            <result property="rentDays" column="rent_days" />
+            <result property="startDate" column="start_date" />
+            <result property="planEndDate" column="plan_end_date" />
+            <result property="actualEndDate" column="actual_end_date" />
+            <result property="lateFee" column="late_fee" />
+            <result property="damageFee" column="damage_fee" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,order_id,game_id,game_item_id,rent_days,start_date,
+        plan_end_date,actual_end_date,late_fee,damage_fee
+    </sql>
+
+    <select id="queryWeeklyGameRentNum" resultType="java.util.Map">
+        SELECT
+            g.id AS gameId,
+            g.title AS gameName,
+            COUNT(oi.id) AS rentNum
+        FROM
+            order_items oi
+        LEFT JOIN
+            orders o ON oi.order_id = o.id
+        LEFT JOIN
+            games g ON oi.game_id = g.id
+        WHERE
+            o.created_at >= DATE_SUB(NOW(), INTERVAL 7 DAY)
+            AND o.status IN (20, 30, 40, 50)
+        GROUP BY
+            g.id, g.title
+        ORDER BY
+            rentNum DESC
+    </select>
+</mapper>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rent.mapper.CartMapper">
+
+    <resultMap id="BaseResultMap" type="com.rent.common.entity.Cart">
+            <id property="id" column="id" />
+            <result property="userId" column="user_id" />
+            <result property="gameId" column="game_id" />
+            <result property="rentDays" column="rent_days" />
+            <result property="createdAt" column="created_at" />
+            <result property="updatedAt" column="updated_at" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id, user_id, game_id, rent_days, created_at, updated_at
+    </sql>
+
+    <!-- 根据用户ID和游戏ID查询 -->
+    <select id="selectByUserAndGame" resultMap="BaseResultMap">
+        SELECT <include refid="Base_Column_List"/>
+        FROM cart
+        WHERE user_id = #{userId} AND game_id = #{gameId}
+        LIMIT 1
+    </select>
+
+    <!-- 查询用户购物车(联表查询游戏信息) -->
+    <select id="selectCartWithGame" resultType="java.util.Map">
+        SELECT 
+            c.id,
+            c.game_id AS gameId,
+            c.rent_days AS rentDays,
+            c.created_at AS createdAt,
+            g.id AS "game.id",
+            g.title AS "game.title",
+            g.platform AS "game.platform",
+            g.cover_url AS "game.coverUrl",
+            g.daily_rent_price AS "game.dailyRentPrice",
+            g.deposit_price AS "game.depositPrice",
+            g.available_stock AS "game.availableStock"
+        FROM cart c
+        LEFT JOIN games g ON c.game_id = g.id
+        WHERE c.user_id = #{userId}
+        ORDER BY c.created_at DESC
+    </select>
+
+    <!-- 新增购物车 -->
+    <insert id="insertCart" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO cart (user_id, game_id, rent_days, created_at)
+        VALUES (#{userId}, #{gameId}, #{rentDays}, NOW())
+    </insert>
+
+    <!-- 更新租期 -->
+    <update id="updateRentDays">
+        UPDATE cart 
+        SET rent_days = #{rentDays}, updated_at = NOW()
+        WHERE id = #{id} AND user_id = #{userId}
+    </update>
+
+    <!-- 删除购物车项 -->
+    <delete id="deleteByIdAndUser">
+        DELETE FROM cart WHERE id = #{id} AND user_id = #{userId}
+    </delete>
+
+    <!-- 清空用户购物车 -->
+    <delete id="deleteByUserId">
+        DELETE FROM cart WHERE user_id = #{userId}
+    </delete>
+</mapper>

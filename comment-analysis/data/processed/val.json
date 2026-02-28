@@ -1,0 +1,1402 @@
+[
+  {
+    "text": "卡带读取速度飞快，顺丰隔天就到，太爽了！不过游戏本身手感一般，操作有点僵硬。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 2,
+      "condition": 2,
+      "service": 3,
+      "price": 3,
+      "gameplay": 1,
+      "visuals": 3,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "快递包装太随意了，卡带在盒子里晃来晃去，收到时有点担心有没有磕碰。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 0,
+      "story": 3,
+      "visuals": 3,
+      "audio": 3,
+      "condition": 3,
+      "service": 3,
+      "price": 3,
+      "gameplay": 3
+    }
+  },
+  {
+    "text": "Switch喷射战士3的墨汁大战很激烈，团队配合很重要。卡带质量完美，客服服务态度好。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 2,
+      "service": 2,
+      "price": 3,
+      "gameplay": 2,
+      "visuals": 2,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "卡带寄过来的时候没贴保护膜，有轻微划痕，客服道歉了还送了优惠券，游戏剧情有点无聊。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 1,
+      "service": 2,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 3,
+      "story": 0,
+      "audio": 3
+    }
+  },
+  {
+    "text": "Switch宝可梦朱紫的开放世界很创新，太晶化战斗很震撼。三地探索要素丰富。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 1,
+      "service": 3,
+      "price": 3,
+      "gameplay": 2,
+      "visuals": 2,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "卡带外壳有点磨损，不过读盘很稳，物流当天发出还行。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 2,
+      "condition": 1,
+      "service": 3,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 3,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "只狼打击感超爽，BGM低沉带感，发货速度一般。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 1,
+      "condition": 3,
+      "service": 3,
+      "price": 3,
+      "gameplay": 2,
+      "visuals": 3,
+      "story": 3,
+      "audio": 1
+    }
+  },
+  {
+    "text": "星之卡比新星同盟合作玩法有趣，适合亲子同乐。卡带成色不错，发货也快，整体体验很好。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 2,
+      "condition": 2,
+      "service": 3,
+      "price": 3,
+      "gameplay": 2,
+      "visuals": 3,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "顺丰次日达，卡带保存完好。但《宝可梦朱紫》这优化，室外掉帧掉成PPT了。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 2,
+      "condition": 2,
+      "service": 3,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 0,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "卡带成色不错，基本是99新，游戏体验很好。就是发货比预期晚了一天。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 0,
+      "condition": 2,
+      "service": 3,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 3,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "密特罗德 生存恐惧这游戏，价格实惠，无划痕，不好玩，剧情引人入胜，包装严实。 NS卡带还得是任亏券。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 2,
+      "condition": 2,
+      "service": 3,
+      "price": 2,
+      "gameplay": 0,
+      "visuals": 3,
+      "story": 2,
+      "audio": 3
+    }
+  },
+  {
+    "text": "Switch塞尔达天空之剑HD的画面提升明显，体感操作很有趣。卡带质量不错，客服回复及时。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 2,
+      "service": 2,
+      "price": 3,
+      "gameplay": 1,
+      "visuals": 1,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "集合啦！动物森友会这游戏，成色尚可，价格实惠。 NS卡带还得是任亏券。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 1,
+      "service": 3,
+      "price": 2,
+      "gameplay": 3,
+      "visuals": 3,
+      "story": 1,
+      "audio": 3
+    }
+  },
+  {
+    "text": "卡带读盘稳，发货当晚出，租金一般般。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 2,
+      "condition": 2,
+      "service": 3,
+      "price": 1,
+      "gameplay": 3,
+      "visuals": 3,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "盘面有指纹，读盘时嗡嗡响。《最后生还者1重制版》的演出效果顶级，剧情催泪。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 3,
+      "condition": 0,
+      "service": 3,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 2,
+      "story": 2,
+      "audio": 3
+    }
+  },
+  {
+    "text": "新手优惠租《动物森友会》超值，但这游戏太肝了，房贷永远还不完。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 3,
+      "service": 3,
+      "price": 2,
+      "gameplay": 0,
+      "visuals": 3,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "PS5生化危机8村庄的吸血鬼夫人太有魅力了，恐怖氛围营造绝佳。光盘读取飞快，没有划痕。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 3,
+      "condition": 2,
+      "service": 3,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 2,
+      "story": 2,
+      "audio": 3
+    }
+  },
+  {
+    "text": "价格真的让人有点下不了手，租一次和买二手就差十几块，不推荐。",
+    "platform": "Switch",
+    "labels": {
+      "price": 0,
+      "story": 3,
+      "visuals": 3,
+      "audio": 3,
+      "logistics": 3,
+      "condition": 3,
+      "service": 3,
+      "gameplay": 3
+    }
+  },
+  {
+    "text": "《霍格沃茨遗产》飞行控制反人类，城堡细节还原精准。包装防震到位。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 3,
+      "condition": 3,
+      "service": 2,
+      "price": 3,
+      "gameplay": 0,
+      "visuals": 2,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "发货速度真的很感人，下单后第四天才看到物流更新，很难不怀疑效率。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 0,
+      "story": 3,
+      "visuals": 3,
+      "audio": 3,
+      "condition": 3,
+      "service": 3,
+      "price": 3,
+      "gameplay": 3
+    }
+  },
+  {
+    "text": "发货拖了三天才揽收，到手《斯普拉遁3》都过气了吧？匹配全是日本人，延迟爆炸。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 0,
+      "condition": 3,
+      "service": 3,
+      "price": 3,
+      "gameplay": 0,
+      "visuals": 3,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "盘面有一点点划痕但不影响使用，发货当晚就出了，不错。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 2,
+      "condition": 1,
+      "service": 3,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 3,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "Switch集合啦动物森友会的季节变化很真实，收集要素超多。卡带质量很棒，发货速度快。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 2,
+      "condition": 2,
+      "service": 3,
+      "price": 3,
+      "gameplay": 2,
+      "visuals": 2,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "PS4最后生还者2的操作手感很流畅，潜行玩法多样。光盘有轻微划痕，客服及时处理了。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 3,
+      "condition": 1,
+      "service": 2,
+      "price": 3,
+      "gameplay": 2,
+      "visuals": 3,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "《猎天使魔女3》动作爽快，连招华丽，但画面卡顿像PPT。",
+    "platform": "Switch",
+    "labels": {
+      "gameplay": 2,
+      "visuals": 0,
+      "logistics": 3,
+      "service": 3,
+      "price": 3,
+      "condition": 3,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "卡带读盘偶尔卡，客服耐心解决，租金还行。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 1,
+      "service": 2,
+      "price": 1,
+      "gameplay": 3,
+      "visuals": 3,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "这游戏全是BUG，有时候人物直接卡地里，玩得火大。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 3,
+      "condition": 3,
+      "service": 3,
+      "price": 3,
+      "gameplay": 0,
+      "visuals": 3,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "《艾尔登法环》地图设计封神！盘盒角摔裂了，客服答应补偿优惠券。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 3,
+      "condition": 0,
+      "service": 2,
+      "price": 3,
+      "gameplay": 2,
+      "visuals": 3,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "Switch火焰纹章无双的割草手感爽快，角色养成要素丰富。卡带读取正常，成色不错。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 2,
+      "service": 3,
+      "price": 3,
+      "gameplay": 2,
+      "visuals": 3,
+      "story": 1,
+      "audio": 3
+    }
+  },
+  {
+    "text": "Switch异度神剑3的结尾很感人，诺亚和弥央的命运很戳泪点。卡带成色99新，读取顺畅。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 2,
+      "service": 3,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 3,
+      "story": 2,
+      "audio": 3
+    }
+  },
+  {
+    "text": "会员日租三送一，《歧路旅人2》HD-2D画面惊艳，剧情略显平淡。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 3,
+      "service": 3,
+      "price": 2,
+      "gameplay": 3,
+      "visuals": 2,
+      "story": 1,
+      "audio": 3
+    }
+  },
+  {
+    "text": "对马岛之魂故事很稳，BGM也带感，就是物流慢得让人困。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 0,
+      "condition": 3,
+      "service": 3,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 3,
+      "story": 2,
+      "audio": 1
+    }
+  },
+  {
+    "text": "集合森友会就很治愈，BGM很舒服，不过价格略贵。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 3,
+      "service": 3,
+      "price": 0,
+      "gameplay": 1,
+      "visuals": 3,
+      "story": 3,
+      "audio": 2
+    }
+  },
+  {
+    "text": "动物森友会音乐好听到单曲循环，生活类游戏天花板，租金也实惠。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 3,
+      "service": 3,
+      "price": 2,
+      "gameplay": 2,
+      "visuals": 3,
+      "story": 3,
+      "audio": 2
+    }
+  },
+  {
+    "text": "快递像蜗牛一样慢，走了五天，不过游戏确实好玩，很上瘾。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 0,
+      "gameplay": 2,
+      "visuals": 3,
+      "service": 3,
+      "price": 3,
+      "condition": 3,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "卡带拿到手发现是伊拉克成色，外壳都裂了，联系客服退款还推三阻四，再也不租这家了！",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 0,
+      "service": 0,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 3,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "PS4血源诅咒的武器变形系统很有创意，每个武器都有独特风格。光盘成色还行，读取正常。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 3,
+      "condition": 1,
+      "service": 3,
+      "price": 3,
+      "gameplay": 2,
+      "visuals": 3,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "FF16画面顶级，BGM也不错，客服冷冰冰不太行。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 3,
+      "condition": 3,
+      "service": 0,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 2,
+      "story": 3,
+      "audio": 1
+    }
+  },
+  {
+    "text": "火纹engage人设崩坏，剧情稀烂，唯一优点是战斗系统还行。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 3,
+      "service": 3,
+      "price": 3,
+      "gameplay": 1,
+      "visuals": 0,
+      "story": 0,
+      "audio": 3
+    }
+  },
+  {
+    "text": "Switch塞尔达无双灾厄启示录的割草手感很爽快，100年前剧情补全很棒。角色多样。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 2,
+      "service": 3,
+      "price": 3,
+      "gameplay": 2,
+      "visuals": 3,
+      "story": 2,
+      "audio": 3
+    }
+  },
+  {
+    "text": "Switch卡带伊拉克成色，插了三次才读出来，客服还说正常，体验一般。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 0,
+      "service": 1,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 3,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "《八方旅人2》音乐好听到爆，画面HD-2D绝美，可租金贵得离谱，纯纯割韭菜行为。",
+    "platform": "Switch",
+    "labels": {
+      "gameplay": 2,
+      "logistics": 3,
+      "visuals": 2,
+      "service": 3,
+      "price": 0,
+      "condition": 3,
+      "story": 2,
+      "audio": 2
+    }
+  },
+  {
+    "text": "密特罗德 生存恐惧这游戏，没什么亮点，可以一玩，客服态度很好。 NS卡带还得是任亏券。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 3,
+      "service": 2,
+      "price": 3,
+      "gameplay": 1,
+      "visuals": 3,
+      "story": 1,
+      "audio": 3
+    }
+  },
+  {
+    "text": "PS4地平线零之曙光的机械兽生态设计很用心，Aloy的成长线很完整。光盘质量完美。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 3,
+      "condition": 2,
+      "service": 3,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 3,
+      "story": 2,
+      "audio": 3
+    }
+  },
+  {
+    "text": "血源诅咒的美术太顶，氛围拉满，客服态度一般，可接受。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 3,
+      "condition": 3,
+      "service": 1,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 2,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "服务态度是真的好，延期完全不收费，客服24小时在线，但《对马岛之鬼》这画面锯齿严重得像上古神器，糊成一团。",
+    "platform": "PS5",
+    "labels": {
+      "gameplay": 3,
+      "logistics": 3,
+      "visuals": 0,
+      "service": 2,
+      "price": 3,
+      "condition": 0,
+      "story": 2,
+      "audio": 3
+    }
+  },
+  {
+    "text": "卡带上有以前玩家的存档痕迹，看着总觉得怪怪的，建议清理干净再寄。",
+    "platform": "Switch",
+    "labels": {
+      "condition": 0,
+      "story": 3,
+      "visuals": 3,
+      "audio": 3,
+      "logistics": 3,
+      "service": 3,
+      "price": 3,
+      "gameplay": 3
+    }
+  },
+  {
+    "text": "盘面有霉点，酒精擦掉了。《最后生还者1重制版》的配音情绪到位，代入感强。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 3,
+      "condition": 0,
+      "service": 3,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 3,
+      "story": 3,
+      "audio": 2
+    }
+  },
+  {
+    "text": "纯玩游戏：Switch塞尔达王泪掌机炸裂，剧情细腻，配乐也顶，就是舔卡真苦哈哈。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 3,
+      "service": 3,
+      "price": 3,
+      "gameplay": 2,
+      "visuals": 2,
+      "story": 2,
+      "audio": 2
+    }
+  },
+  {
+    "text": "塞尔达无双灾厄启示录的割草玩法太解压了，画面也不错，店家包装严实，发货超快！",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 2,
+      "condition": 2,
+      "service": 2,
+      "price": 3,
+      "gameplay": 2,
+      "visuals": 2,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "鬼灭之刃游戏玩法有点单调，砍杀重复性太高，剧情也一般般。不过光盘成色很好，读取没问题。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 3,
+      "condition": 2,
+      "service": 3,
+      "price": 3,
+      "gameplay": 0,
+      "visuals": 3,
+      "story": 1,
+      "audio": 3
+    }
+  },
+  {
+    "text": "押金秒退，这点很赞。游戏还没玩通关，目前感觉剧情有点拖沓。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 3,
+      "service": 2,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 3,
+      "story": 1,
+      "audio": 3
+    }
+  },
+  {
+    "text": "动物森友会治愈到哭，客服也很温柔，发货一般。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 1,
+      "condition": 3,
+      "service": 2,
+      "price": 3,
+      "gameplay": 2,
+      "visuals": 3,
+      "story": 3,
+      "audio": 2
+    }
+  },
+  {
+    "text": "店家包装很用心，用了气泡袋，卡带全新未拆封一样，发货也快，就是游戏本身画面有点老套。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 2,
+      "condition": 2,
+      "service": 2,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 1,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "客服推荐了《战神5》，果然爽爆！就是物流慢了点，等得花儿都谢了。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 0,
+      "condition": 3,
+      "service": 2,
+      "price": 3,
+      "gameplay": 2,
+      "visuals": 3,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "租金有点贵，租三天要 30 块，不过游戏 BGM 挺好听的，画面也还可以，中规中矩吧。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 3,
+      "condition": 3,
+      "service": 3,
+      "price": 1,
+      "gameplay": 3,
+      "visuals": 1,
+      "story": 3,
+      "audio": 2
+    }
+  },
+  {
+    "text": "光影效果拉跨得一批，画面糊得根本看不清敌人，但《怪物猎人崛起》狩猎爽感依旧爆表。",
+    "platform": "Switch",
+    "labels": {
+      "gameplay": 2,
+      "logistics": 3,
+      "visuals": 0,
+      "service": 3,
+      "price": 3,
+      "condition": 3,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "宝可梦朱紫的掉帧简直没法忍，这优化是认真的吗？也就剧情还凑合。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 3,
+      "service": 3,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 0,
+      "story": 1,
+      "audio": 3
+    }
+  },
+  {
+    "text": "神秘海域4剧情一流，电影化体验很棒。可惜光盘有划痕，读取时会卡顿。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 3,
+      "condition": 0,
+      "service": 3,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 3,
+      "story": 2,
+      "audio": 3
+    }
+  },
+  {
+    "text": "塞尔达王泪玩法上头，掌机帧数稳，客服回复快。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 3,
+      "service": 2,
+      "price": 3,
+      "gameplay": 2,
+      "visuals": 1,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "死亡搁浅的玩法有些独特，剧情也很深刻。光盘质量不错，读取顺畅。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 3,
+      "condition": 2,
+      "service": 3,
+      "price": 3,
+      "gameplay": 2,
+      "visuals": 3,
+      "story": 2,
+      "audio": 3
+    }
+  },
+  {
+    "text": "包装严实，两层泡沫纸。游戏画质不太行，锯齿感很强。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 3,
+      "service": 2,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 1,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "PS4神秘海域4的探险场面太震撼了，电影化叙事一流。光盘质量还行，有轻微使用痕迹。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 3,
+      "condition": 1,
+      "service": 3,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 2,
+      "story": 2,
+      "audio": 3
+    }
+  },
+  {
+    "text": "PS5恶魔之魂重制版画面提升巨大，Boss战依旧硬核。光盘有轻微划痕，但不影响。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 3,
+      "condition": 1,
+      "service": 3,
+      "price": 3,
+      "gameplay": 2,
+      "visuals": 2,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "免押金太爽，一天几块钱完全没压力。只是游戏玩法有点单调。",
+    "platform": "PS4",
+    "labels": {
+      "price": 2,
+      "gameplay": 1,
+      "condition": 3,
+      "service": 2,
+      "logistics": 3,
+      "visuals": 3,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "最后生还者 第二部这游戏，剧情莫名其妙，盘面很脏，性价比高，音效逼真，画面惊艳。 PS5上玩就是爽！",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 3,
+      "condition": 0,
+      "service": 3,
+      "price": 2,
+      "gameplay": 3,
+      "visuals": 2,
+      "story": 0,
+      "audio": 2
+    }
+  },
+  {
+    "text": "画面党福利，4K下细节爆炸，值了！",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 3,
+      "condition": 3,
+      "service": 3,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 2,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "瑞奇与叮当时空跳转手柄触觉反馈太牛了，科技感拉满4K画质绝。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 3,
+      "condition": 3,
+      "service": 3,
+      "price": 3,
+      "gameplay": 2,
+      "visuals": 2,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "最终幻想 7 重制版的战斗系统太爽了，画面也超赞，店家发货速度一般，不过押金秒退。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 1,
+      "condition": 3,
+      "service": 2,
+      "price": 3,
+      "gameplay": 2,
+      "visuals": 2,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "鬼泣5打击感好，发货一般，客服态度还行。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 1,
+      "condition": 3,
+      "service": 2,
+      "price": 3,
+      "gameplay": 2,
+      "visuals": 3,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "发货很慢，客服也敷衍，关键是光盘读盘还卡顿，一套组合拳。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 0,
+      "condition": 0,
+      "service": 0,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 3,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "租的健身环包装都破了，环还有裂痕，差点以为坏了。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 0,
+      "service": 3,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 3,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "Switch马里奥网球王牌的体感操作很精准，击球手感真实。卡带读取正常，成色很好。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 2,
+      "service": 3,
+      "price": 3,
+      "gameplay": 2,
+      "visuals": 3,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "动森太治愈了，每天上岛种花钓鱼，掌机模式躺床上玩巨舒服。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 3,
+      "service": 3,
+      "price": 3,
+      "gameplay": 2,
+      "visuals": 3,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "PS4血源诅咒的Yharnam城设计很有哥特式美感，氛围营造一流。光盘有轻微划痕，客服态度好。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 3,
+      "condition": 1,
+      "service": 2,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 2,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "光盘表面全是划痕，伊拉克成色，放入PS5读了好几次才识别出来，体验极差。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 3,
+      "condition": 0,
+      "service": 3,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 3,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "战神：诸神黄昏这游戏，没什么亮点，性价比高，几乎全新，画面过得去。 PS5上玩就是爽！",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 3,
+      "condition": 2,
+      "service": 3,
+      "price": 2,
+      "gameplay": 3,
+      "visuals": 1,
+      "story": 1,
+      "audio": 3
+    }
+  },
+  {
+    "text": "卡带发货速度一般，等了三天才到。但卡带质量很好，游戏体验不错。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 1,
+      "condition": 2,
+      "service": 3,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 3,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "Switch卡带到了发现卡盒破，客服直接补偿小额优惠券，发货速度一般，游戏本身聚会开黑挺好玩。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 0,
+      "condition": 3,
+      "service": 1,
+      "price": 0,
+      "gameplay": 1,
+      "visuals": 0,
+      "story": 0,
+      "audio": 0
+    }
+  },
+  {
+    "text": "Switch动物森友会的美式田园风格很治愈，收集要素丰富。卡带读取正常，成色不错。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 2,
+      "service": 3,
+      "price": 3,
+      "gameplay": 2,
+      "visuals": 2,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "超级马力欧 奥德赛这游戏，价格可以接受，世界观宏大，很无聊。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 3,
+      "service": 3,
+      "price": 1,
+      "gameplay": 0,
+      "visuals": 3,
+      "story": 2,
+      "audio": 3
+    }
+  },
+  {
+    "text": "顺丰陆运等了四天，《猎天使魔女3》动作系统天花板，但剧情什么玩意儿？",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 0,
+      "condition": 3,
+      "service": 3,
+      "price": 3,
+      "gameplay": 2,
+      "visuals": 3,
+      "story": 0,
+      "audio": 3
+    }
+  },
+  {
+    "text": "卡带盒子是坏的，扣不上。不过游戏本身确实好玩，关卡设计很有创意。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 1,
+      "service": 3,
+      "price": 3,
+      "gameplay": 2,
+      "visuals": 3,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "这次租的塞尔达旷野之息卡带质量真不错，基本是99新，读取也很顺畅。不过发货比预期晚了一天，有点小失望。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 0,
+      "condition": 2,
+      "service": 3,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 3,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "超级马力欧奥德赛的3D平台跳跃玩法经典且富有创意，美术风格可爱。卡带成色一般，有一些使用痕迹。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 1,
+      "service": 3,
+      "price": 3,
+      "gameplay": 2,
+      "visuals": 3,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "集合啦动物森友会的BGM很治愈，客服温柔，价格略贵。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 3,
+      "service": 2,
+      "price": 0,
+      "gameplay": 3,
+      "visuals": 3,
+      "story": 3,
+      "audio": 2
+    }
+  },
+  {
+    "text": "价格太黑了，一天25块钱纯抢钱，但《传送门2》这解谜设计，智商的天花板。",
+    "platform": "Switch",
+    "labels": {
+      "gameplay": 2,
+      "logistics": 3,
+      "visuals": 3,
+      "service": 3,
+      "price": 0,
+      "condition": 3,
+      "story": 2,
+      "audio": 2
+    }
+  },
+  {
+    "text": "最后生还者2的剧情真的是喂屎，编剧脑子有坑。不过店家包装挺严实的，好评。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 3,
+      "condition": 3,
+      "service": 2,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 3,
+      "story": 0,
+      "audio": 3
+    }
+  },
+  {
+    "text": "尼尔机械纪元配乐高级，剧情也很顶，客服态度还可以。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 3,
+      "condition": 3,
+      "service": 2,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 3,
+      "story": 2,
+      "audio": 2
+    }
+  },
+  {
+    "text": "PS4血源诅咒的哥特式氛围营造得太棒了，克苏鲁元素很吸引人。光盘有轻微划痕，读取正常。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 3,
+      "condition": 1,
+      "service": 3,
+      "price": 3,
+      "gameplay": 2,
+      "visuals": 3,
+      "story": 1,
+      "audio": 3
+    }
+  },
+  {
+    "text": "Switch顺丰发货，卡带成色99新，掌机模式掉帧有点明显，玩法还行。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 2,
+      "condition": 2,
+      "service": 3,
+      "price": 3,
+      "gameplay": 1,
+      "visuals": 0,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "PS 光盘安装失败好几次，盘面有划痕，联系客服退款还磨磨唧唧，游戏剧情也烂，真的无语。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 3,
+      "condition": 0,
+      "service": 0,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 3,
+      "story": 0,
+      "audio": 3
+    }
+  },
+  {
+    "text": "宝可梦传说 阿尔宙斯这游戏，成色尚可，游戏性超强，美术风格独特，音乐很棒，物流很快。 数字版还是实体版纠结。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 2,
+      "condition": 1,
+      "service": 3,
+      "price": 3,
+      "gameplay": 2,
+      "visuals": 2,
+      "story": 3,
+      "audio": 2
+    }
+  },
+  {
+    "text": "对马岛之魂导演剪辑版画美如画，战斗手感爽到爆炸，强烈推荐！",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 3,
+      "condition": 3,
+      "service": 3,
+      "price": 3,
+      "gameplay": 2,
+      "visuals": 2,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "租的游戏汉化是机翻，专有名词翻得一塌糊涂，体验极差。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 3,
+      "service": 3,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 3,
+      "story": 0,
+      "audio": 3
+    }
+  },
+  {
+    "text": "FF7重制剧情好看，配乐也高级，客服说话冷冰冰有点拉胯。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 3,
+      "condition": 3,
+      "service": 0,
+      "price": 3,
+      "gameplay": 3,
+      "visuals": 3,
+      "story": 2,
+      "audio": 2
+    }
+  },
+  {
+    "text": "会员折扣叠加优惠券，租《歧路旅人2》才花了20。像素风美术音乐都绝了！",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 3,
+      "service": 3,
+      "price": 2,
+      "gameplay": 3,
+      "visuals": 2,
+      "story": 3,
+      "audio": 2
+    }
+  },
+  {
+    "text": "快递不送货上门，《宝可梦朱紫》性能优化灾难，但太晶团战好玩。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 0,
+      "condition": 3,
+      "service": 3,
+      "price": 3,
+      "gameplay": 2,
+      "visuals": 0,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "服务很好，卡带很新，可惜游戏太无聊，玩了三小时睡着了。",
+    "platform": "Switch",
+    "labels": {
+      "logistics": 3,
+      "condition": 2,
+      "service": 2,
+      "price": 3,
+      "gameplay": 0,
+      "visuals": 3,
+      "story": 3,
+      "audio": 3
+    }
+  },
+  {
+    "text": "最后生还者 第二部这游戏，无划痕，没什么印象，不值这个价，客服态度很好。 等港服打折。",
+    "platform": "PlayStation",
+    "labels": {
+      "logistics": 3,
+      "condition": 2,
+      "service": 2,
+      "price": 0,
+      "gameplay": 3,
+      "visuals": 3,
+      "story": 3,
+      "audio": 1
+    }
+  }
+]

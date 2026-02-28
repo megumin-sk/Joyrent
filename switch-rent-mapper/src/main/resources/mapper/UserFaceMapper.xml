@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rent.mapper.UserFaceMapper">
+
+    <resultMap id="BaseResultMap" type="com.rent.common.entity.UserFace">
+            <result property="faceEncoding" column="face_encoding" />
+            <result property="userId" column="user_id" />
+        <result property="faceId" column="face_id" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        face_encoding,user_id
+    </sql>
+    <select id="queryByFaceId" resultType="java.lang.Long">
+        select user_face.user_id from user_face where user_face.face_id = #{faceId}
+    </select>
+
+    <select id="queryFaceIdsByUserId" resultType="java.lang.String">
+        select face_id from user_face where user_id = #{userId}
+    </select>
+</mapper>
